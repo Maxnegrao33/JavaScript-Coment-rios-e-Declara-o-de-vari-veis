@@ -1,0 +1,38 @@
+//Comentários 
+
+//Isto é um comentário de linha
+
+/*Isto é um comentário 
+de várias linhas
+igual ao usado no Java
+Existe um atalho no Visual Code, que é o Ctrl + ;*/
+
+//Declarando uma variável em JavaScript
+/*A forma antiga de se criar uma variável
+era usando a palavra "var",
+hoje usamos as palavras "let" para quando se quer possibilitar a mudança de valor
+em códigos antigos é comum achar a palavra "var" sendo usada para declaração de variáveis
+e a palavra "const", declara uma variável, quando o valor precisa ser fixo
+Qualquer mudançã no valor da "const", vai gerar um erro no código*/
+
+let age = 31;
+let currentYear = 2023;
+    console.log(age, currentYear)
+
+//Para mudar o valor da variável já declarada, basta somente atribuir um valor
+/*Dica, o final do codigo não precisa ser fechado com (;) igual no Java
+Mas eu faço isso para não perder o costume de outras linguagens como o Java */
+age = 32;
+
+/* Regras de Variáveis
+Vairáveis usam camelCase e são nomes únicos
+Não podem iniciar com números, somente letras, underscore(_), cifrão
+Palavras-chaves da linguagem não podem serem usadas como variáveis (Consulte a documentação da linguagem)
+*/
+
+/* Constantes
+Para não mudar o valor da variável (na verdade uma constante)
+*/Constantes não permitem mudar o valor da variável
+const points = 100;
+console.log(points);
+
